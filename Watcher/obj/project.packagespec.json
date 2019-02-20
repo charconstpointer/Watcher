@@ -32,6 +32,10 @@
           "version": "[2.2.0, )",
           "autoReferenced": true
         },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[9.0.1, )"
+        },
         "SqlTableDependency": {
           "target": "Package",
           "version": "[8.5.3, )"
