@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SqlTableDependency" Version="8.5.3" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.7.0-preview.19073.11" />
+    </ItemGroup>
+
+</Project>
