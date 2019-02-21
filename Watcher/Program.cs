@@ -26,7 +26,6 @@ namespace Watcher
 
             var configuration = builder.Build();
             var cs = configuration.GetSection("DbConnections").GetSection("Default").Value;
-//            const string cs = "Data Source=LAPTOP-SVEAL1S7\\SQLEXPRESS;Initial Catalog=Curry;Integrated Security=True";
             var mapper = new ModelToTableMapper<User>();
             mapper.AddMapping(u => u.Id, "Id");
             mapper.AddMapping(u => u.Username, "Username");
