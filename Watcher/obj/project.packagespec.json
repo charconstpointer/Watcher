@@ -26,6 +26,18 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "Microsoft.Extensions.Configuration": {
+          "target": "Package",
+          "version": "[3.0.0-preview.19074.2, )"
+        },
+        "Microsoft.Extensions.Configuration.FileExtensions": {
+          "target": "Package",
+          "version": "[3.0.0-preview.19074.2, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[3.0.0-preview.19074.2, )"
+        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
@@ -34,7 +46,7 @@
         },
         "Newtonsoft.Json": {
           "target": "Package",
-          "version": "[9.0.1, )"
+          "version": "[12.0.1, )"
         },
         "SqlTableDependency": {
           "target": "Package",
