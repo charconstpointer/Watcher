@@ -1,4 +1,4 @@
 .idea
 .vs
-Watcher/bin
-Watcher/obj
+bin
+obj
