@@ -17,31 +17,35 @@ namespace Watcher
 
     internal static class Program
     {
+        private static IConfigurationBuilder _builder;
+
         private static void OnChange(object sender, RecordChangedEventArgs<User> e)
         {
-            Notify(e.Entity.Username).Start();
+            var host = _builder.Build().GetSection("Api").GetSection("Default").ToString();
+            var hostUri = new Uri(host);
+            Notify(e.Entity.Username, hostUri).Start();
             Console.WriteLine("Id " + e.Entity.Id + " Name " + e.Entity.Username);
         }
 
-        private static async Task Notify(string entity)
+        private static async Task Notify(string entity, Uri receiver)
         {
             using (var client = new HttpClient())
             {
                 var message = entity + " added to db";
-                var res = await client.PostAsync("https://localhost:44303/api/events",
+                var res = await client.PostAsync(receiver,
                     message.AsJson()
                 );
                 Console.WriteLine(res.ReasonPhrase);
             }
         }
 
-        private static void Main(string[] args)
+        private static void Main()
         {
-            var builder = new ConfigurationBuilder()
+            _builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json");
 
-            var configuration = builder.Build();
+            var configuration = _builder.Build();
             var cs = configuration.GetSection("DbConnections").GetSection("Backup").Value;
 
 

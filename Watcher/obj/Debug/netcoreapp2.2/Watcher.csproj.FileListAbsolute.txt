@@ -9,3 +9,14 @@ C:\Users\fml\RiderProjects\Solace\Watcher\obj\Debug\netcoreapp2.2\Watcher.Assemb
 C:\Users\fml\RiderProjects\Solace\Watcher\obj\Debug\netcoreapp2.2\Watcher.AssemblyInfo.cs
 C:\Users\fml\RiderProjects\Solace\Watcher\obj\Debug\netcoreapp2.2\Watcher.dll
 C:\Users\fml\RiderProjects\Solace\Watcher\obj\Debug\netcoreapp2.2\Watcher.pdb
+C:\Users\fml\RiderProjects\Watcher\Watcher\bin\Debug\netcoreapp2.2\Watcher.deps.json
+C:\Users\fml\RiderProjects\Watcher\Watcher\bin\Debug\netcoreapp2.2\Watcher.runtimeconfig.json
+C:\Users\fml\RiderProjects\Watcher\Watcher\bin\Debug\netcoreapp2.2\Watcher.runtimeconfig.dev.json
+C:\Users\fml\RiderProjects\Watcher\Watcher\bin\Debug\netcoreapp2.2\Watcher.dll
+C:\Users\fml\RiderProjects\Watcher\Watcher\bin\Debug\netcoreapp2.2\Watcher.pdb
+C:\Users\fml\RiderProjects\Watcher\Watcher\obj\Debug\netcoreapp2.2\Watcher.csprojAssemblyReference.cache
+C:\Users\fml\RiderProjects\Watcher\Watcher\obj\Debug\netcoreapp2.2\Watcher.csproj.CoreCompileInputs.cache
+C:\Users\fml\RiderProjects\Watcher\Watcher\obj\Debug\netcoreapp2.2\Watcher.AssemblyInfoInputs.cache
+C:\Users\fml\RiderProjects\Watcher\Watcher\obj\Debug\netcoreapp2.2\Watcher.AssemblyInfo.cs
+C:\Users\fml\RiderProjects\Watcher\Watcher\obj\Debug\netcoreapp2.2\Watcher.dll
+C:\Users\fml\RiderProjects\Watcher\Watcher\obj\Debug\netcoreapp2.2\Watcher.pdb

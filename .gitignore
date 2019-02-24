@@ -1,2 +1,4 @@
-.idea/
-.vs/
+.idea
+.vs
+Watcher/bin
+Watcher/obj
