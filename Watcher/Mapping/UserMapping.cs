@@ -1,4 +1,5 @@
 using TableDependency.SqlClient.Base;
+using Watcher.Domain.Models;
 
 namespace Watcher.Mapping
 {

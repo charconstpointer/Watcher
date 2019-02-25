@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using TableDependency.SqlClient;
 using TableDependency.SqlClient.Base.EventArgs;
+using Watcher.Domain.Models;
 using Watcher.Mapping;
 
 namespace Watcher
