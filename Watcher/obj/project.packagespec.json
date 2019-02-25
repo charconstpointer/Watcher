@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\Watcher.csproj",
+    "projectUniqueName": "C:\\Users\\fml\\RiderProjects\\Solace\\Watcher\\Watcher.csproj",
     "projectName": "Watcher",
-    "projectPath": "C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\Watcher.csproj",
-    "outputPath": "C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\obj\\",
+    "projectPath": "C:\\Users\\fml\\RiderProjects\\Solace\\Watcher\\Watcher.csproj",
+    "outputPath": "C:\\Users\\fml\\RiderProjects\\Solace\\Watcher\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

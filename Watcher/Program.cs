@@ -9,12 +9,6 @@ using Watcher.Mapping;
 
 namespace Watcher
 {
-    public class User
-    {
-        public int Id { get; set; }
-        public string Username { get; set; }
-    }
-
     internal static class Program
     {
         private static IConfigurationBuilder _builder;
@@ -43,7 +37,7 @@ namespace Watcher
         {
             _builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json");
+                .AddJsonFile($"appsettings.json");
 
             var configuration = _builder.Build();
             var cs = configuration.GetSection("DbConnections").GetSection("Backup").Value;
