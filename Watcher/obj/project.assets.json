@@ -1696,11 +1696,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\Watcher.csproj",
+      "projectUniqueName": "C:\\Users\\fml\\RiderProjects\\Solace\\Watcher\\Watcher.csproj",
       "projectName": "Watcher",
-      "projectPath": "C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\Watcher.csproj",
+      "projectPath": "C:\\Users\\fml\\RiderProjects\\Solace\\Watcher\\Watcher.csproj",
       "packagesPath": "C:\\Users\\fml\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\obj\\",
+      "outputPath": "C:\\Users\\fml\\RiderProjects\\Solace\\Watcher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1768,13 +1768,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\fml\\RiderProjects\\Watcher\\Watcher\\obj\\Watcher.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
