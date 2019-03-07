@@ -39,7 +39,6 @@ namespace Watcher
             _builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json");
-
             var configuration = _builder.Build();
             var cs = configuration.GetSection("DbConnections").GetSection("Backup").Value;
             var areWeHumans = "orAreWeDancers";
